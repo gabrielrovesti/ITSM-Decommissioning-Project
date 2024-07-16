@@ -1,0 +1,13 @@
+Leggendo da cima a fondo gli altri 4 progetti recuperati noto le cose seguenti:
+
+- NDB ITSM SaaS: applicazione SaaS banche a livello internazionale, descrive come gestire i servizi a livello internazionale usando relative pratiche ITIL 4, capendone la percentuale di completamento su sistemi CRM
+TL;DR - poco utile, se non per applicazione
+
+- Project2: parla dell'azienda, del caso d'uso ad alto livello, di come si usa ITIL a livello framework e come tutte le pratiche di ITIL 4 si applichino, assieme ai Guiding Principles. Hanno un piano che descrive il ruolo delle singole figure professionali e come usarle, assieme ad asset e metriche 
+TL;DR - preciso, buono per ITIL 4 e utile a capire le metriche e comprensione nell'utilizzo dei vari processi e metriche per singoli casi
+
+- ITSM Project: introduzione ad alto livello, azienda e utilizzo di sottoprocessi per ogni caso, con scopi/attività e ruoli (RACI Matrix = assegnazione di responsabilità), per capire mancanze su cui intervenire
+TL;DR - progetto molto descrittivo ma con poco focus rispetto ad ITIL a mio parere, preciso nelle sottocategorie e senza visione d'insieme
+
+- Dissertation document: analisi nel fallimento delle operazioni di una banca, descrizione anche qui di processi da implementare e anche nuovi processi futuri, con tutti gli step da usare in generale. Più pratico di altri nell'applicazione ma abbastanza descrittivo senza un focus di fondo.
+TL;DR - progetto interessante, secondo me molto generale e con poco focus
