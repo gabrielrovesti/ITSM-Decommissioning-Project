@@ -1,12 +1,12 @@
 #import "unipd-doc.typ": *
 
 #show: unipd-doc(
-  title:    [ITSM Project - Dissertation Document],
+  title: [ITSM Project - Dissertation Document],
   subtitle: [IT Service Management],
-  author1:   [Gabriel Rovesti - 2103389 \ ], 
-  author2:   [Michael Amista' - 2122865 \ ],
-  author3:   [Elena Marchioro - 2130393],
-  date:     [_August/September 2024_],
+  author1: [Gabriel Rovesti - 2103389 \ ], 
+  author2: [Michael Amista' - 2122865 \ ],
+  author3: [Elena Marchioro - 2130393],
+  date: [_August/September 2024_],
 )
 
 = Introduction <introduction>
@@ -985,13 +985,13 @@ In the decommissioning process, the _Risk Management_ practice is used to gather
 
 Possible risks may include:
 
-- legal and regulatory changes
+- Legal and regulatory changes
 
-- possible competitors,
+- Possible competitors
 
-- dependencies on suppliers and partners
+- Dependencies on suppliers and partners
 
-- technological changes
+- Technological changes
 
 As an output of this practice, we obtain a portfolio of risks that helps the planning in avoiding possible threats and creating opportunities to produce new value.
 
@@ -1015,7 +1015,9 @@ The following are to be considered the _key activities_ to be applied for this p
 
   - In formulating mitigation strategies, both the _IT Strategy Unit_ and the _Security Division_ are involved, and the Financial and HR Departments can assist with the allocation of resources.
 
-- _Risk register_
+#pagebreak()
+
+- _Risk Register_
 
   - The bank already has a well maintained and documented risk register so all the new risks and their mitigation plans are added to this register with all their information regarding the management activities, including risk identification, assessment, and mitigation plans ensuring that each of them is detailed and always up to date to be used in case of need.
 
@@ -1049,6 +1051,8 @@ The following are to be considered the _key activities_ to be applied for this p
 
   - Based on the forecast, the _IT Finance Team_ will allocate resources in the best way possible with the help of the Operational Management Unit to identify which part of the decommissioning process needs to be prioritized. The CFO will report the decisions made to the CEO through the Shared Services Director.
 
+#pagebreak()
+
 - _Monitoring Financial Performances_ 
 
   - This activity involves scheduling periodic reviews to evaluate financial performance by detailing all expenditures related to the decommissioning and implementation processes and comparing forecasted costs to actual costs to identify variances and take corrective actions.
@@ -1077,6 +1081,7 @@ The following is to be considered the _key activity_ to be applied for this prac
 
   - The _IT Strategy Unit_ is in charge of the strategy and planning thus is assigned to this activity to identify if the decommissioning aligns with the bank's strategy and ensuring the plan to complete it is also in line with the organization's goals. To support the operational planning the _Operations Management Unit_ is involved to ensure the plan is accurate and detailed.
 
+#pagebreak()
 
 === Improve
 
@@ -1159,6 +1164,8 @@ The following are to be considered the _key activities_ to be applied for this p
    
   - This activity would be primarily led by the _IT strategy unit_ within the IT department, under the supervision of the _CIO_. The _IT strategy unit_, responsible for planning and finance, would review existing supplier contracts to gain a clear understanding of current supplier performance and contractual obligations. They would work closely with the Service implementation unit, which handles change management, to ensure all contractual obligations are met during the decommissioning process. The _Finance department_, led by the _CFO_, would be consulted to ensure financial aspects of supplier contracts are thoroughly reviewed.
 
+#pagebreak()
+
 - _Supplier Performance Evaluation_
 
   - Evaluating supplier performance using KPIs and SLAs provides a data-driven basis for assessing how well suppliers have delivered services. This evaluation highlights areas where suppliers have excelled or underperformed, enabling the organization to make informed decisions about continuing or terminating relationships. It also provides a foundation for setting clearer expectations and performance standards in future contracts.
@@ -1174,6 +1181,8 @@ The following are to be considered the _key activities_ to be applied for this p
 ==== Change Control
 
 The _Change Control_ practice focuses on managing the change process efficiently while continuously seeking opportunities for improvement. By learning from each change initiative, the organization can enhance its change management processes, making them more efficient and less disruptive. The objective is to manage changes associated with decommissioning Home Connectivity and USB Connectivity services in a structured manner while leveraging these experiences to refine and improve future change control practices.
+
+#pagebreak()
 
 A normal change control implementation, also described below, follows a logical implementation like @cm shows:
 
@@ -1216,47 +1225,11 @@ The following are to be considered the _key activities_ to be applied for this p
   
   - This feedback loop is essential for refining change management processes and ensuring continuous improvement in future initiatives. The IT strategy unit would use these insights to inform future IT strategies and change management approaches. The CIO would review the findings and ensure that lessons learned are incorporated into future change management practices across the IT department and shared with other relevant divisions.
 
-==== Release Management
-
-In the context of decommissioning Home Connectivity and USB Connectivity services, the _Release Management_ practice ensures that new and changed services and features are made available for use efficiently and effectively. Focusing on improvement processes within this practice guarantees that releases are managed smoothly, minimizing disruptions and enhancing future release initiatives. The objective is to facilitate the deployment of new services or upgrades while leveraging the experiences from the decommissioning process to refine and improve future release management practices. Since the bank has already faced up problems with new software releases, as the two desktop major updates, this practice is fundamental for the bank ecosystem improvement to minimize the problems after new features releases. 
-
-The following are to be considered the _key activities_ to be applied for this practice: 
-
-- _Assessment of Current Release Management Practices_
- 
-  - By reviewing existing release management procedures, the bank can understand the effectiveness of the current framework and identify past issues. This review allows for targeted improvements, ensuring that releases are managed more efficiently and effectively, thus preventing the recurrence of previous problems experienced during major updates.
-   
-  - This activity would be primarily led by the Service implementation unit within the IT department, which is responsible for change management. They would collaborate closely with the Applications unit, which handles design, procurement, development, maintenance, and support. The Service quality unit, particularly the service improvement manager, would be involved in reviewing the effectiveness of current practices. By reviewing existing release management procedures, these teams can understand the effectiveness of the current framework and identify past issues. The CIO would oversee this assessment, ensuring it aligns with broader IT strategy and organizational goals.
- 
-- _Risk Assessment and Mitigation_
- 
-  - Conducting a thorough risk assessment helps anticipate and address potential issues before they occur. By identifying risks and developing mitigation strategies, the bank can minimize disruptions and ensure a smoother transition during the decommissioning process, thus addressing problems that arose in past software releases.
-   
-  - This task would be a collaborative effort between the _Service implementation unit_, the _Applications unit_, and the _Security division_. The _Service implementation unit_, with its change management expertise, would lead the risk assessment process. The _Applications unit_ would provide technical insights on potential risks and impacts on systems. The _Security division_ would ensure all security-related risks are considered. The CIO would review and approve the final risk assessment and mitigation strategies.
- 
-- _Release Planning and Scheduling_
- 
-  - A detailed release plan provides a roadmap for managing releases systematically and efficiently. By outlining clear timelines, responsibilities, and communication protocols, the bank ensures that all stakeholders are informed and prepared, reducing miscommunication and operational disruptions that previously caused issues during major updates.
-   
-  - The _Service implementation unit_ would take the lead in developing the release plan. It would collaborate with the IT strategy unit to ensure alignment with overall IT objectives and business needs. The _HR department_ might be involved in planning any necessary training or staff communications related to new releases. By outlining clear timelines, responsibilities, and communication protocols, these teams ensure that all stakeholders are informed and prepared, reducing miscommunication and operational disruptions that previously caused issues during major updates. The CIO would review and approve the final release plan.
- 
-- _Implementation and Monitoring_
- 
-  - Implementing release initiatives according to the plan ensures that releases are carried out systematically and with minimal disruption. Continuous monitoring and adjustment during implementation allow the bank to address any issues promptly and refine processes in real time, preventing the recurrence of problems experienced during past major updates.
-   
-  - The _Service implementation unit_ would be responsible for overseeing the implementation of releases. The _Operations management unit_, particularly the service desk and technical management teams, would be involved in monitoring the release and its immediate impacts. The _Service quality unit_ would be responsible for continuous monitoring and adjustment during implementation, allowing the bank to address any issues promptly.
- 
-- _Training and Awareness_
- 
-  - Training teams on best practices and lessons learned from the decommissioning process ensures they are equipped with the necessary knowledge and skills for effective release management. Ongoing training programs help maintain a high level of competency and readiness for future release initiatives, reducing the risk of problems similar to those encountered during previous major updates.
-   
-  - This would be a joint effort between the HR department and the IT department. The HR manager would oversee the overall training strategy, while the _Service implementation unit_ from the IT department would provide the technical content related to release management. The _Service quality unit_ would contribute insights from post-release reviews to inform training content. Ongoing training programs help maintain a high level of competency and readiness for future release initiatives, reducing the risk of problems similar to those encountered during previous major updates.
-
-#pagebreak()
-
 ==== Service Level Management
 
 In the context of decommissioning Home Connectivity and USB Connectivity services, the Service Level Management practice ensures that clear business-based targets for service levels are set, and that the delivery of services is properly assessed, monitored, and managed against these targets. Focusing on improvement within the Service Level Management practice guarantees that service delivery meets or exceeds business expectations. The objective is to monitor service levels and user satisfaction continuously, using insights gained from the decommissioning process to enhance future service delivery and management practices.
+
+#pagebreak()
 
 The following are to be considered the _key activities_ to be applied for this practice: 
 
@@ -1283,6 +1256,8 @@ The following are to be considered the _key activities_ to be applied for this p
   - Regularly gathering user feedback ensures that the bank understands user experiences and expectations. This feedback is critical for identifying service delivery improvements and enhancing user satisfaction.
    
   - This would be a collaborative effort between the _Customer delivery division_ and the IT department's _Service quality unit_. The _Customer delivery division_ would lead the effort in gathering feedback from external customers, while the _Service quality unit_ would focus on internal users across various divisions. The HR department might be involved in designing and administering internal satisfaction surveys. This feedback is critical for identifying service delivery improvements and enhancing user satisfaction. The CIO would review the feedback results and ensure that insights are incorporated into service improvement initiatives.
+
+#pagebreak()
  
 - _Training and Awareness_
  
@@ -1350,6 +1325,8 @@ The following are to be considered the _key activities_ to be applied for this p
    
   - The _Finance department_, led by the _CFO_, would take primary responsibility for contract management. The IT strategy unit would be involved in reviewing and managing IT-specific contracts. The Service quality unit within the IT department would provide input on performance-related aspects of IT supplier contracts. This ensures that suppliers meet their obligations and that contracts remain aligned with the bank's changing needs. The _Industry liaison_ division would be consulted to ensure contract terms align with industry standards and practices. The _CIO_ and other relevant division heads would review and approve significant contract changes.
 
+#pagebreak()
+  
 - _Supplier Performance Monitoring_
 
   - Establishing key performance indicators (KPIs) and service level agreements (SLAs) allows the bank to measure supplier performance objectively. Regular performance reviews and audits help identify areas where suppliers excel or need improvement. Continuous performance monitoring ensures that suppliers consistently meet their commitments, enabling timely identification and resolution of performance issues.
@@ -1415,7 +1392,9 @@ The following are to be considered the _key activities_ to be applied for this p
  
   - Transparent communication and stakeholder engagement ensure that everyone is aware of and agrees with the proposed changes. This fosters a sense of ownership and collaboration, reducing resistance and ensuring a smoother implementation process. It also helps build trust and transparency, as stakeholders are kept informed throughout the change lifecycle.
    
-  - The _Service implementation unit_ would take the lead in stakeholder communication, working closely with the HR department for internal communications and the Customer delivery division for external stakeholder engagement. The _IT strategy unit_ would be involved in communicating how changes align with overall IT strategy. For changes affecting specific business areas, the relevant division heads (e.g., Retail banking, Global banking, Financial products) would be responsible for communicating with their stakeholders and obtaining necessary approvals. The _CIO_ would be responsible for obtaining executive-level approvals, with the _CEO_ being involved in decisions on major changes that significantly impact the organization. It also helps build trust and transparency, as stakeholders are kept informed throughout the change lifecycle.
+  - The _Service implementation unit_ would take the lead in stakeholder communication, working closely with the HR department for internal communications and the Customer delivery division for external stakeholder engagement. The _IT strategy unit_ would be involved in communicating how changes align with overall IT strategy. 
+  
+    - For changes affecting specific business areas, the relevant division heads (e.g., Retail banking, Global banking, Financial products) would be responsible for communicating with their stakeholders and obtaining necessary approvals. The _CIO_ would be responsible for obtaining executive-level approvals, with the _CEO_ being involved in decisions on major changes that significantly impact the organization. It also helps build trust and transparency, as stakeholders are kept informed throughout the change lifecycle.
 
 #pagebreak()
 
@@ -1444,6 +1423,8 @@ The following are to be considered the _key activities_ to be applied for this p
    
   - This activity would be primarily led by the _Service quality unit_ within the IT department, working closely with the IT strategy unit to ensure alignment with overall IT objectives. The Service quality unit would be responsible for drafting and negotiating SLAs with various business stakeholders. The _CIO_ would oversee the SLA establishment process, ensuring that IT services align with broader business strategies. The heads of various business divisions (e.g., Retail banking, Global banking, Financial products) would be involved in reviewing and approving SLAs relevant to their areas.
 
+#pagebreak()
+  
 - _Performance Review and Feedback_
 
   - Regular performance reviews and feedback sessions help in maintaining alignment between service delivery and stakeholder expectations. This engagement fosters a culture of continuous improvement and ensures that the bank remains responsive to stakeholder needs. By actively seeking and incorporating feedback, the bank can enhance service quality and stakeholder satisfaction.
@@ -1469,8 +1450,6 @@ The following are to be considered the _key activities_ to be applied for this p
    
   - This activity would be primarily led by the _Operations management unit_ within the IT department, specifically the service desk team. They would be responsible for receiving, triaging, and fulfilling service requests. For requests affecting specific business areas, the relevant teams within divisions like Retail banking, Global banking, or Financial products might be involved in providing specialized support. The _CIO_ would oversee the overall performance of the service desk, ensuring it aligns with IT strategy and business needs.
 
-#pagebreak()
-
 - _User Communication and Updates_
 
   - Regular communication and updates keep users informed and engaged, reducing uncertainty and frustration. This transparency builds trust and confidence in the service desk's capabilities and ensures that users feel supported throughout the resolution process. Effective communication also helps manage user expectations and reduces the likelihood of repeat inquiries.
@@ -1485,28 +1464,202 @@ The following are to be considered the _key activities_ to be applied for this p
 
 === Design & Transition
 
+The _Design and Transition_ value chain activity is a critical component in the process of delivering products and services. Its importance lies in ensuring that the delivered offerings meet the required quality standards, are cost-effective, and are brought to the market within the stipulated time frame. This is achieved through meticulous planning and adaptation of services and products, ensuring they are continually designed to meet the expectations of stakeholders.
+
+This SVC activity has a corresponding series of _inputs_:
+
+- _"Plan"_ provides portfolio decisions and architectures, as well as policies. 
+
+- _"Engage"_ provides product and service requirements
+
+- _"Improve"_ provides improvement initiatives and status reports
+
+- _"Deliver and Support"_, along with _"Improve"_, provides service performance information
+
+- _"Obtain/Build"_ offers service components and knowledge and information about new and changed products and services 
+
+- _"Engage"_ provides knowledge and information about third-party service components
+
+- _"Engage"_ provides contracts and agreements with external and internal suppliers and partners
+
+#pagebreak()
+
+It's also important, for this SVC activity, to focus on its corresponding series of _outputs_:
+
+- _"Obtain/Build"_ receives requirements and specifications.
+
+- _"Engage"_ acquires contract and agreement requirements
+
+- _"Deliver and Support"_ receives new and changed products and services
+
+- Valuable knowledge and information about new and changed products and services are shared with all value chain activities
+
+- Performance information and improvement opportunities for _"Improve"_
+
 ==== Architecture Management
 
-==== Information Security Management
+In this activity of the decommissioning process, the _Architecture Management_ practice is used to evaluate whether the services to be decommissioned and implemented meet the investment objectives once they have been approved in the previous activities. It is responsible for the service architecture, which describes the structure (how the service components fit together) and the dynamics (activities, flow of resources, and interactions) of the service. The target architecture produced by _Plan_ can be used as a template or blueprint for multiple services and is essential to the design and transition activity.
+
+The following are to be considered the _key activities_ to be applied for this practice: 
+
+- _Refine and Update Service Architecture_
+
+  - With the support of the new target architecture model and gap analyses, outputs of the _Plan_ activity, the architecture is revised and updated following the documents previously shared by the Shared Services  Division ensuring that the implementation is aligned with the target model. In the end, all architectural changes and updates are thoroughly documented, including the rationale behind each change and its expected impact on the organization.
+
+  - The teams responsible for this activity are those assigned by the _HR Department_ during the resource allocation Plan key activity, including, among others, the _IT Strategy, Applications and Service Implementation Units_.
+
+- _Evaluate Architectural Performance_
+
+  - This activity includes evaluating the performance of the new architecture after decommissioning and implementing the services as scheduled in the _Plan_ activity. It also involves analyzing service performance data to assess the current architecture's efficiency and identify opportunities for improvement.
+
+  - The responsible for this activity is the _IT Strategy Unit_ with the support of the following units _Operations Management Unit_ and _Service Quality Unit_ which have the necessary knowledge about the services, technologies and how to evaluate their performances.
 
 ==== Risk Management
 
-==== Supplier Management
+In the _Design and Transition_ activity the _Risk Management_ practice is used to design the services to be decommissioned and implemented to address prioritized risks as already identified and assessed during the _Plan_ activity. If approved, the risks should then be managed as part of the decommissioning.
 
-==== Change Control
+#pagebreak()
 
-==== IT Asset Management
+The following are to be considered the _key activities_ to be applied for this practice:
+
+- _Integration of Risk Controls_
+
+  - This activity consists of incorporating the mitigation strategies outlined in the _Plan_ activity for each registered risk that may affect the transition to the new architecture. It involves integrating risk controls into the design of the services to be implemented and decommissioned. This includes ensuring that the design addresses all identified risks and incorporates suitable protective measures within the architecture and service design.
+
+  - Responsible for this activity is the _Applications Unit_, which includes teams for application design, procurement, and development as well as the _Technical Management Team_ from the Operations Management Unit, responsible for developing and supporting the IT infrastructure.
+
+- _Risk Monitoring_
+
+  - Throughout the decommissioning process, identified risks must be continuously monitored and mitigation strategies reviewed and adjusted as necessary to address new risks or changes in existing risks.
+
+  - The _Security Division_ is responsible for this activity because it covers risks and it will have the support of the _Operations Management Unit_ and _Application Unit _which are directly assigned to the changes of the services to be decommissioned and implemented.
 
 ==== Release Management
 
-==== Service Configuration Management
+In the context of decommissioning Home Connectivity and USB Connectivity services, the _Release Management_ practice ensures that new and changed services and features are made available for use efficiently and effectively. Focusing on improvement processes within this practice guarantees that releases are managed smoothly, minimizing disruptions and enhancing future release initiatives. The objective is to facilitate the deployment of new services or upgrades while leveraging the experiences from the decommissioning process to refine and improve future release management practices. Since the bank has already faced up problems with new software releases, as the two desktop major updates, this practice is fundamental for the bank ecosystem improvement to minimize the problems after new features releases. 
+
+The following are to be considered the _key activities_ to be applied for this practice: 
+
+- _Assessment of Current Release Management Practices_
+ 
+  - By reviewing existing release management procedures, the bank can understand the effectiveness of the current framework and identify past issues. This review allows for targeted improvements, ensuring that releases are managed more efficiently and effectively, thus preventing the recurrence of previous problems experienced during major updates.
+   
+  - This activity would be primarily led by the Service implementation unit within the IT department, which is responsible for change management. They would collaborate closely with the Applications unit, which handles design, procurement, development, maintenance, and support. The Service quality unit, particularly the service improvement manager, would be involved in reviewing the effectiveness of current practices. By reviewing existing release management procedures, these teams can understand the effectiveness of the current framework and identify past issues. The CIO would oversee this assessment, ensuring it aligns with broader IT strategy and organizational goals.
+
+#pagebreak()
+ 
+- _Risk Assessment and Mitigation_
+ 
+  - Conducting a thorough risk assessment helps anticipate and address potential issues before they occur. By identifying risks and developing mitigation strategies, the bank can minimize disruptions and ensure a smoother transition during the decommissioning process, thus addressing problems that arose in past software releases.
+   
+  - This task would be a collaborative effort between the _Service implementation unit_, the _Applications unit_, and the _Security division_. The _Service implementation unit_, with its change management expertise, would lead the risk assessment process. The _Applications unit_ would provide technical insights on potential risks and impacts on systems. The _Security division_ would ensure all security-related risks are considered. The CIO would review and approve the final risk assessment and mitigation strategies.
+ 
+- _Release Planning and Scheduling_
+ 
+  - A detailed release plan provides a roadmap for managing releases systematically and efficiently. By outlining clear timelines, responsibilities, and communication protocols, the bank ensures that all stakeholders are informed and prepared, reducing miscommunication and operational disruptions that previously caused issues during major updates.
+   
+  - The _Service implementation unit_ would take the lead in developing the release plan. It would collaborate with the IT strategy unit to ensure alignment with overall IT objectives and business needs. The _HR department_ might be involved in planning any necessary training or staff communications related to new releases. By outlining clear timelines, responsibilities, and communication protocols, these teams ensure that all stakeholders are informed and prepared, reducing miscommunication and operational disruptions that previously caused issues during major updates. The CIO would review and approve the final release plan.
+ 
+- _Implementation and Monitoring_
+ 
+  - Implementing release initiatives according to the plan ensures that releases are carried out systematically and with minimal disruption. Continuous monitoring and adjustment during implementation allow the bank to address any issues promptly and refine processes in real time, preventing the recurrence of problems experienced during past major updates.
+   
+  - The _Service implementation unit_ would be responsible for overseeing the implementation of releases. The _Operations management unit_, particularly the service desk and technical management teams, would be involved in monitoring the release and its immediate impacts. The _Service quality unit_ would be responsible for continuous monitoring and adjustment during implementation, allowing the bank to address any issues promptly.
+ 
+- _Training and Awareness_
+ 
+  - Training teams on best practices and lessons learned from the decommissioning process ensures they are equipped with the necessary knowledge and skills for effective release management. Ongoing training programs help maintain a high level of competency and readiness for future release initiatives, reducing the risk of problems similar to those encountered during previous major updates.
+   
+  - This would be a joint effort between the HR department and the IT department. The HR manager would oversee the overall training strategy, while the _Service implementation unit_ from the IT department would provide the technical content related to release management. The _Service quality unit_ would contribute insights from post-release reviews to inform training content. Ongoing training programs help maintain a high level of competency and readiness for future release initiatives, reducing the risk of problems similar to those encountered during previous major updates.
 
 ==== Service Validation and Testing
 
+The purpose of the _Service Validation and Testing_ practice is to ensure that decommissioned services and the implementation of the Token Connectivity service meet the requirements defined previously. The requirements are used to establish measurable quality and performance indicators. Service design, deployment management, and release management of this activity are all tightly integrated with the service validation and testing practice.
+
+The _key activities_ for this practice are:
+
+- _Requirements Verification and Test Planning_
+
+  - This activity consists of verifying that all functional and non-functional requirements for the decommissioned services and the new Token Connectivity service are clearly defined and documented. Then develop test plans by identifying the test cases and scenarios to be executed. For each test case, outline the inputs and corresponding outputs and check that they meet the defined objectives.
+
+  - Responsible for this activity is the _Application Unit_ that is in charge of IT service design activities and the development of all applications used and not from third parties.
+
+- _Test Case Setup and Execution_
+
+  - Once the test cases and scenarios have been identified, it's necessary to set up and configure the test environment to closely replicate the production environment in which the Token Connectivity Service will operate. This includes setting up the necessary infrastructure, tools and data. Detailed test cases and scripts covering all aspects of service functionality, performance, security and compliance must then be created and executed in the test environment.
+
+  - This activity is performed by the Operations Control Unit's _Technical Management Team_, which has the necessary knowledge in development, is able to replicate the production environment, configure the necessary infrastructure, and run detailed test scripts, with the help of the Application Unit's Development Team, to validate service functionality, performance, security, and compliance.
+
+- _Validation and Reporting of Decommissioning_
+
+  - This activity consists of ensuring that all tests are passed and that the decommissioned services are validated against a checklist of criteria to confirm that they have been properly decommissioned with no remaining dependencies or risks. All test results are then documented, including successful outcomes and any problems encountered, highlighting any risks or areas of concern that require further attention.
+
+  - The _Service Quality Unit_ is responsible for measuring how the organization delivers its services compared to customer expectations. With the help of the Application Management and Operations Management units, they ensure that all tests are passed and that the services provided meet the required criteria.
+
+==== Service Design
+
+The purpose of the practice of _Service Design_ is to design products and services that are fit for purpose, fit for use and can be delivered by the organization and its ecosystem. This includes the planning and organization of people, partners and suppliers, information, communication, technology and practices for the services to be changed, and the interaction between the organization and its customers.
+
+It is important to take a holistic, result-oriented approach to all aspects of service design, and to consider all other aspects when changing or modifying any of the individual elements of a service design. The design and development of the changed services should not be done in isolation but should consider the impact on: 
+
+- All relevant stakeholders, including customers and suppliers 
+
+- The existing architectures 
+
+- The technology required 
+
+- The required measurements and metrics
+
+This practice should be applied to the decommissioning process because, if not carefully planned, the decommissioning of Home Connectivity and USB Connectivity services could cause unexpected negative effects on customers or the organization that otherwise could have been avoided.
+
+The _key activities_ for this practice include other activities already described. Here are some that have not yet been described:
+
+- _Service Interface and Integration Design_
+
+  - This activity consists of understanding how the services to be decommissioned are integrated into the architecture and ensuring that their retirement doesn't cause any problems. Then it's a matter of integrating the Token Connectivity, ensuring it's robust and scalable, and that it interacts smoothly with existing systems and external entities. One of the focus areas of the design is the security of the Token Connectivity, which is critical given that we are in a banking environment.
+
+  - The Application Unit's _Design Teams_ with the help of _Technical Management Team_ from the Operations Management Unit are tasked with this activity to ensure that the decommissioning of existing services and the integration of the Token Connectivity service are designed to avoid any problem with the provided services.
+
+- _Design Validation and Review_
+
+  - This key activity focuses on ensuring that the designs for both the decommissioning of the Home Connectivity and USB Connectivity services and the introduction of the Token Connectivity service meet the required standards and are consistent with the overall objectives of the organization. This activity involves critically assessing the designs to identify potential issues, ensure compliance with best practices and confirm that the designs meet stakeholder requirements before implementation.
+  
+  - The _Service Quality Unit_ ensures that all designs are aligned with the bank's strategic objectives and compliance requirements. They review and validate designs for the changed services to meet organizational standards and stakeholder expectations.
+
 ==== Deployment Management
 
-==== Infrastructure and Platform Management
+The purpose of the _Deployment Management_ practice is to move the changed hardware and documentation into live environments. It is also involved in the deployment of components to the test environment.
+A _continuous delivery_ approach is used for the decommissioning and implementation of the Token Connectivity service. The changed components are integrated, tested, and deployed when they are needed, providing frequent opportunities for customer feedback loops. It is also used a _phased deployment_ approach to help the organization gradually decommission the Home Connectivity and USB Connectivity services while incrementally introducing the Token Connectivity service. This reduces risk and enables continuous monitoring and validation of each phase of deployment.
+In our case, the infrastructure is delivered as a service, then the deployment of changed components is managed by the organization by automating the deployment as much as possible. Deployment is also under the control of the Token Connectivity provider, so the IT organization needs to ensure that they know which deployments are planned and which have taken place to maintain a controlled environment.
 
+The following are to be considered the _key activities_ to be applied for this practice:
+
+- _Planning and Scheduling Deployments_
+
+  - This activity consists of developing a detailed deployment plan that defines the timeline, sequence, and methods for deploying the changes. The plan includes the definition of a deployment window and the customers that will be interested, as per the phased deployment approach to mitigate potential risks and incrementally roll out the change.
+
+  - The _Planning Team_ of the  IT Strategy Unit is responsible for developing and overseeing the execution of detailed deployment plans.
+
+- _Automate Deployment Execution_
+
+  - Using automation in the deployment process ensures that the new Token Connectivity service is deployed efficiently and consistently, reducing the likelihood of errors and ensuring a smooth rollout of the service across the organization. Therefore, this activity consists of developing and testing scripts to automate the movement of customers to the new service when it's ready and detecting any problem it may occur during the decommissioning process.
+
+  - The Application Unit's _Development Team_ is responsible for this activity, developing and testing scripts that automate the deployment process. Their role is to ensure that the new Token Connectivity service is deployed efficiently and consistently with minimal manual intervention, thereby reducing the likelihood of errors during rollout.
+
+- _Deployment Monitoring_
+
+  - This activity involves continuously monitoring the deployment process to ensure it is following the plan and validating that each deployment phase meets the required quality standards. This activity is aided by coordination with the Token Connectivity provider and by automating deployments in this way the organization can maintain control over the deployment process and ensure that all changes are carefully managed and tracked.
+
+  - The _Technical Management Team_ from the Operations Control Unit is responsible for monitoring the deployment process and support the infrastructure.
+
+- _Post-Deployment Review and Optimization_
+
+  - This activity includes analyzing the data from the deployment to identify inefficiencies and optimize subsequent deployments. When the deployment is complete, ensure that documentation is updated to reflect changes made during the deployment and that stakeholders are informed of the success of the decommissioning.
+
+  - The _Service Quality Unit_ which includes the Service Improvement Manager, is responsible for analyzing deployment data to identify inefficiencies and opportunities for improvement.
+
+#pagebreak()
+  
 === Obtain & Build
 
 The _Obtain & Build_ activity is critical, since it focuses on ensuring all necessary components, including new services, technologies and service relationships are properly acquired, developed, integrated and supportive into the bank's IT evolving landscape. In the context of the user case, this encompassed the procurement of new connectivity solution, but also the termination of existing service contracts and establishment of new partnerships and collaborations, so to support bank's future needs. This may also involve the careful management of IT assets into the transition and effective completion process, ensuring resources are effectively handled, allocated and optimized according to the new service model.
@@ -1549,6 +1702,8 @@ The following are to be considered the _key activities_ to be applied for this p
   
   - They will pay particular attention to termination clauses and potential penalties, developing a phased approach minimizing operational and financial impacts. In this way, the careful review will inform the timeline for decommissioning and then identify and contractual obligations which might affect the new connectivity services.
 
+#pagebreak()
+
 - _Supplier Performance Evaluation_
 
   - The Service Quality Unit will thus be responsible for leading the assessment of current suppliers' performance against the established SLAs. It will therefore liaise with the Operations Management Unit in reporting and dealing with any outstanding issues or disputes. Finally, it shall provide a comprehensive performance report to the CIO and the CFO. 
@@ -1577,6 +1732,8 @@ The following are to be considered the _key activities_ to be applied for this p
   
   - Among the members will be representatives from IT, Finance, Security, Customer Delivery, and Global Banking, to ensure everything is covered in this transition. Team meetings will be held on a weekly basis to track progress, deal with problems, and make fundamental decisions for the decommissioning process.
 
+#pagebreak()
+
 - _Develop a Comprehensive Supplier Transition Plan_
 
   - The Service Implementation Unit shall develop the detailed plan outlining every step involved in transitioning from current connectivity services to Token Connectivity. It shall include timelines for contract terminations, supplier evaluations, on-boarding of new suppliers, and service migration activities. 
@@ -1599,6 +1756,8 @@ An excellent ITAM seamlessly integrates processes throughout all stages, is conf
   image("images/itam.png", width: 70%),
   caption: [Ideal IT Asset Management lifecycle],
 ) <itam>
+
+#pagebreak()
 
 The following are to be considered the _key activities_ to be applied for this practice:
 
@@ -1629,6 +1788,8 @@ The following are to be considered the _key activities_ to be applied for this p
   - It will achieve this by reusing assets to save on costs, allocating resources better across the bank, and reducing the environment's burden by use during an extended lifecycle.
     This activity would be led by the _IT Strategy Unit Manager_ in conjunction with the _IT Asset Manager_, in consultation with the _Operations Management Unit Manager_ and the relevant divisional business heads, for example, Retail Banking and Customer Delivery, in the identification of prospective re-use opportunities for the assets being decommissioned.
 
+#pagebreak()
+
 - _Integration with New Token Connectivity Assets_
 
   - This activity involves the planning of integration of new assets to be acquired for the Token Connectivity service into the existing asset management framework. This is aimed at ensuring a smooth transition into, and management of, new assets.
@@ -1656,6 +1817,8 @@ The following are to be considered the _key activities_ to be applied for this p
   - The establishment of an improvement culture where all employees are motivated and provoked towards the identification of and contribution to improvement opportunities. This shall comprise of creation of awareness, training, and recognition for efforts on improvements. Another major element concerns time and budget allocation for improvement initiatives so that they do not get submerged with the routines of daily work or other large projects.
 
   - The initiative to promote improvement is led by the _CIO_ and the _Service Quality Unit_, while training initiatives are supported by _HR_. Department heads are responsible for fostering and promoting continuous improvement in teams and championing resources. Budgeting is the responsibility of the _CFO_, together with the _CIO_ and the _IT Financial Manager_.
+
+#pagebreak()
 
 - _Securing time and budget for continual improvement_
 
@@ -1736,6 +1899,8 @@ The following are to be considered the _key activities_ to be applied for this p
   - The changes within the IT infrastructure from the decommissioning of old services to the implementation of the new Token Connectivity service drove the updates in the CMDB. This will involve the recording of new CIs, updating of existing ones, and removal of items that are now obsolete.
 
   - The goal of this process is to make the CMDB accurate and up-to-date as a source of information about the IT environment for decision-making and other ITSM processes. This will be implemented by the _Service Configuration Management_ team, directly under the supervision of the _IT Asset Manager_, with inputs from various IT units involved in the transition.
+
+#pagebreak()
 
 - _Configuration Baseline Establishment_
 
@@ -1907,6 +2072,8 @@ The following are to be considered the _key activities_ to be applied for this p
 
   - Here, it's important to keep an eye at valuable data for continual service improvement and identification of any systemic issues in transition process. This information shall form a key input to any Improvement activity, prioritized both by frequency and severity of Incident. These are managed by Incident Managers, and user satisfaction will be confirmed by the Service Desk.
 
+#pagebreak()
+
 ==== Infrastructure and Platform Management
 
 The _Infrastructure and Platform Management_ practice is designed to manage and control the components of IT infrastructure that enable the delivery of services to the business. Ensuring IT infrastructure—hardware and software—is fit for purpose, maintained, and operated in an efficient manner for the business needs and service delivery.
@@ -1934,6 +2101,8 @@ The following are to be considered the _key activities_ to be applied for this p
 
   - This involves ensuring that updates to the infrastructure are made and kept in a state capable of supported the evolving business needs. This is coordinated by the _Infrastructure Managers_ with the help of the _Procurement Teams_ and the involvement of the _Technical Specialists_ for specific components.
 
+#pagebreak()
+
 - _Security Patch Management_
 
   - This means identifying, testing, and applying security patches in all infrastructure components, specifically taking care of the maintenance of security during the transition period. Focusing on maintaining secure and up-to-date systems is the key, since security expertise might be one of the most important aspects to touch and contribute to overall risk management processes, keeping strict collaboration with relevant stakeholders and software vendors.
@@ -1955,7 +2124,7 @@ The processes and procedures needed in this context will be instrumental in mana
 An ideal logical schema for this practice would be like the one present in @mem:
 
 #figure(
-  image("images/mem.png", width: 65%),
+  image("images/mem.png", width: 50%),
   caption: [Monitoring and event management logical workflow],
 ) <mem>
 
@@ -1989,6 +2158,8 @@ The following are to be considered the _key activities_ to be applied for this p
 
   - Supports the decision-making process and continual improvement, while using different reporting and analytics tools, careful data analysis and presentation skills. This will be managed by the _Event Managers_ in consultation with various stakeholders.
 
+#pagebreak()
+
 ==== Service Level Management
 
 The practice of _Service Level Management_ allows for the setting of clear business-based targets regarding service levels and ensures that service delivery will be correctly assessed against those targets, thus being monitored and managed. This practice is instrumental in establishing, maintaining, and improving relations between the service provider and its customers by assuring that agreed service levels shall be met consistently.
@@ -2013,6 +2184,8 @@ The following are to be considered the _key activities_ to be applied for this p
 - _Service Review and Reporting_
 
   - Reviews shall be critical during the transition to ensure that everything is open and clear to the customer. These reviews could provide a forum for discussing service performance against agreed-upon specifications, discussing any issues or concerns, and aligning expectations regarding the ongoing migration to Token Connectivity. Reports for these reviews need to clearly show performance against SLAs for legacy and new services. They might include trend analysis to show how service levels are evolving over time as the transition progresses.
+
+#pagebreak()
 
   - Ensures ongoing communication and alignment with customer expectations. This is coordinated by the _Service Level Manager_ with involvement from _Customer Relationship Managers_ and relevant _Technical Teams_. Reporting and presentation tools and used and presented coherently, involving also joint reviews, analyze data and feed accordingly continual service improvement processes.
 
@@ -2063,6 +2236,8 @@ The following are to be considered the _key activities_ to be applied for this p
     Testing should also include functional testing of the token connectivity features, performance testing to check that this is at least as good as, if not better than, the capabilities of legacy systems, and integration testing to confirm that new and old components will interact without problems.
     More specifically, User Acceptance Testing (UAT) is important for involving representatives from different user groups to ensure that the new service is in line with their requirements, and for making the new service intuitive.
 
+
+    
   - Ensures that the release realizes quality standards and business requirements. This shall be organized by _Test Managers_ with involvement from _Quality Assurance Teams_ and _User Acceptance Testers_. Assurance processes shall consider knowledge of testing tools and environments in business processes, including third-party testing services.
 
 - _Release Deployment_
@@ -2087,6 +2262,8 @@ The following are to be considered the _key activities_ to be applied for this p
 
   - It is intended to provide an organization-wide view of the IT environment. The _Configuration Manager_ will lead this activity in collaboration with _Service Owners_ and _Technical Teams_. Discovery tools should be supported, and good management of internal and external providers should be kept over the change and asset management processes in the best possible way.
 
+#pagebreak()
+  
 - _Configuration Control_
 
   - Control is most complex during the Token Connectivity transition because it needs to manage changes affecting both old and new systems—quite often, simultaneously. In legacy systems, more configuration control would be focused on the gradual decommissioning process. This may include tracking hardware that has been removed or repurposed, archiving data, and updating documentation to reflect that these services are being wound down. Configuration control over the process of introducing new CIs for token connectivity has to be in place to ensure that every new component is correctly recorded and its relationship with other CIs properly mapped. Since new features and capabilities will be introduced from time to time, this will, therefore, be a continuous process.
@@ -2104,6 +2281,8 @@ The following are to be considered the _key activities_ to be applied for this p
   - Regular audits are even more important in times of major transition—like the one that will involve moving to token connectivity. Such audits help to guarantee that what is happening in the rapidly changing IT environment is properly represented within the Configuration Management Database. For legacy systems, audits can ensure that components decommissioned are recorded as such and that no 'zombie' systems continue to run unnecessarily. These could involve physical audits of server rooms or network closets to ensure that hardware is removed consistent with record. For connectivity by tokens, audits will have to confirm that all new elements are properly recorded in the CMDB, including their specifications, locations, and relationship with other CIs. 
 
   - Critical for maintaining the integrity of configuration data. This activity is typically led by _Configuration Auditors_ in coordination with _Service Owners_ and _Technical Teams_. Overall data quality and compliance processes, when involving verifying configuration data from external providers means collaboration and integration with physical asset checks
+
+#pagebreak()
 
 - _Configuration Information Management_
 
